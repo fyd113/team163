@@ -12,10 +12,19 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install notebook`
 
 ### Install required packages:
-`pip install pandas....`
+`pip install requests`
+`pip install regex`
+`pip install python-csv`
+`pip install beautifulsoup4`
+`pip install pandas`
+`pip install pandas`
+`pip install python-csv`
 
 ### Run the notebook:
 `jupyter notebook`
 
 ## EXECUTION - How to run a demo on our code
-TODO
+
+### Run School Data Jupyter Notebooks:
+`Open scrape_census_school_districts.ipynb  and click Run All Cells`
+`Open combine_niche_and_census.ipynb and click Run All Cells`
