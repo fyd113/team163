@@ -23,7 +23,7 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 
 ## EXECUTION - How to run a demo on our code
 
-### Run School Data Jupyter Notebooks:
+### Run School Data Jupyter Notebooks to scrape and clean data regarding school rating:
 `Open scrape_census_school_districts.ipynb  and click Run All Cells`
 `Open combine_niche_and_census.ipynb and click Run All Cells`
 
