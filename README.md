@@ -11,7 +11,7 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 ### Install Jupyter Notebook:
 `pip install notebook`
 
-### Install required packages:
+### Install required packages for Jupyter Notebook:
 `pip install requests`
 `pip install regex`
 `pip install python-csv`
@@ -19,9 +19,6 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install pandas`
 `pip install pandas`
 `pip install python-csv`
-
-### Run the notebook:
-`jupyter notebook`
 
 ## EXECUTION - How to run a demo on our code
 
