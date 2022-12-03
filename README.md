@@ -19,7 +19,7 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install pandas`
 `pip install pandas`
 `pip install python-csv`
-'pip install pyspark'
+`pip install pyspark`
 
 ## EXECUTION - How to run a demo on our code
 
