@@ -121,32 +121,39 @@ fn_schema(con, 'table_ver2')
 
 #%% Add new variables to the table
 
-# Completed:
-fn_add_variable('population', 'B01001_001E', 'integer', state_county_combos)
+# Group 1:
+fn_add_variable('B01003e1', 'B01001_001E', 'integer', state_county_combos)
 
-fn_add_variable('median_age', 'B01002_001E', 'integer', state_county_combos)
+fn_add_variable('B01002e1', 'B01002_001E', 'integer', state_county_combos)
 print("median_age completed!")
 
-# In progress:
-
-fn_add_variable('median_income', 'B07011_001E', 'integer', state_county_combos)
-print("median_income completed!")
-
-fn_add_variable('male_pop', 'B01001_002E', 'integer', state_county_combos)
+fn_add_variable('B01001e2', 'B01001_002E', 'integer', state_county_combos)
 print("male_pop completed!")
-#
-## Remaining:
-fn_add_variable('female_pop', 'B01001_026E', 'integer', state_county_combos)
+
+fn_add_variable('B01001e26', 'B01001_026E', 'integer', state_county_combos)
 print("female_pop completed!")
-#
-fn_add_variable('white', 'B02001_002E', 'integer', state_county_combos)
+
+# Group 2:
+fn_add_variable('B02001e2', 'B02001_002E', 'integer', state_county_combos)
 print("white completed!")
 #
-fn_add_variable('black', 'B02001_003E', 'integer', state_county_combos)
+fn_add_variable('B02001e3', 'B02001_003E', 'integer', state_county_combos)
 print("black completed!")
 #
-fn_add_variable('asian', 'B02001_005E', 'integer', state_county_combos)
+fn_add_variable('B02001e5', 'B02001_005E', 'integer', state_county_combos)
 print("asian completed!")
 #
-fn_add_variable('asian_with_others', 'B02011_001E', 'integer', state_county_combos)
+fn_add_variable('B02011e1', 'B02011_001E', 'integer', state_county_combos)
 print("asian_with_others completed!")
+
+# Group 3:
+fn_add_variable('B03003e3', 'B03003_003E', 'integer', state_county_combos)
+print("hispanic completed!")
+
+# Group 4:
+fn_add_variable('B19301e1', 'B19301_001E', 'integer', state_county_combos)
+print("income_per_capita completed!")
+
+# Group 5:
+fn_add_variable('B25077e1', 'B25077_001E', 'integer', state_county_combos)
+print("median_value_owner_occupied_housing_unit completed!")
