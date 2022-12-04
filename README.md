@@ -46,5 +46,5 @@ Downloaded from https://www.openicpsr.org/openicpsr/project/117921/version/V1/vi
 Each dataset was cleaned in OpenRefine to remove the missing values issue and create a common key to join them later as given below.
 
 ### C. Integrate all the datasets in a single database.
-1. Each dataset has different granularity in terms of GEOID. The demographics datasets are till Block Group level while some other datasets are till Tract or County levels. So they are integrate by running following Jupyter Notebook:
+Each dataset has different granularity in terms of GEOID. For example, the demographics datasets are till Block Group level while some other datasets are till Tract or County levels. We have decided to use the granularity till the Block Group level for our project because it is the smallest geographical unit for which the census bureau publishes sample data. So the individual datasets are integrated by running following Jupyter Notebook:
 `Process_database_notebook_ver2.ipynb`
