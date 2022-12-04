@@ -1,4 +1,4 @@
-# team163
+# Team163
 Understanding CSE6242 Project Repository
 
 ## DESCRIPTION
