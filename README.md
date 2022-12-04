@@ -27,7 +27,7 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `Open scrape_census_school_districts.ipynb  and click Run All Cells`
 `Open combine_niche_and_census.ipynb and click Run All Cells`
 
-### Download demographics data from the American Community Survey website using their API:
+### Download demographics data from the American Community Survey website using their API. (This takes a lot of time, so the script was run parallely for each table being downloaded, and the tables are joined in the next step.):
 `ACS_data_collection_using_API_call.py`
 
 ### Each dataset has different granularity. Clean them in OpenRefine and then integrate them by running following Jupyter Notebook:
