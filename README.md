@@ -23,16 +23,22 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 
 ## EXECUTION - How to run a demo on our code
 
-### Run School Data Jupyter Notebooks to scrape and clean data regarding school rating:
+### School rating data: Run School Data Jupyter Notebooks to scrape and clean data:
 `Open scrape_census_school_districts.ipynb  and click Run All Cells`
 `Open combine_niche_and_census.ipynb and click Run All Cells`
 
-### Download demographics data from the American Community Survey website using their API. 
+### Demographics data: Downloaded from the American Community Survey website using their API through a python script. 
 `ACS_data_collection_using_API_call.py`
 1. The API key can be created at https://api.census.gov/data/key_signup.html. The key created for the user pkalan3 is included in the code. 
 2. It takes a lot of time to download the entire dataset due to slow API response, so the parameters were separated into 5 different groups (mentioned in the script), each group was added to a separate instance of the same script and then all the instances were ran in parallel to reduce overall time. The downloaded tables were joined in the last step given below.
 
-### Each dataset was cleaned in OpenRefine to remove the missing values issue.
+### Grocery availability data: Downloaded from https://www.openicpsr.org/openicpsr/project/123001/version/V1/view?path=/openicpsr/123001/fcr:versions/V1.4/NaNDA_Grocery_Stores_by_Census_Tract_2003-2017_v1-1.pdf&type=file
+
+### Parks availability data: Downloaded from https://www.openicpsr.org/openicpsr/project/117921/version/V1/view
+
+### Crime data: Downloaded from the FBI website.
+
+### Each dataset was cleaned in OpenRefine to remove the missing values issue and create a common key to join them later as given below.
 
 ### Integrating all datasets in a single database.
 1. Each dataset has different granularity in terms of GEOID. The demographics datasets are till Block Group level while some other datasets are till Tract or County levels. So they are integrate by running following Jupyter Notebook:
