@@ -21,6 +21,9 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install python-csv`
 `pip install pyspark`
 
+### Install Tableau:
+`refer this link (https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_download_and_install.htm) to install Tableau Desktop`
+
 ## EXECUTION - How to run a demo on our code
 ### A. Download all datasets:
 #### School rating data: 
@@ -48,3 +51,5 @@ Each dataset was cleaned in OpenRefine to remove the missing values issue and cr
 ### C. Integrate all the datasets in a single database.
 Each dataset has different granularity in terms of GEOID. For example, the demographics datasets are till Block Group level while some other datasets are till Tract or County levels. We have decided to use the granularity till the Block Group level for our project because it is the smallest geographical unit for which the census bureau publishes sample data. So the individual datasets are integrated by running following Jupyter Notebook:
 `Process_database_notebook_ver2.ipynb`
+
+### D. Open .twb file
