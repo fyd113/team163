@@ -55,7 +55,8 @@ Each dataset has different granularity in terms of GEOID. For example, the demog
 After each single dataset was merged and integrated into one database, they were converted to geopandas dataframe using geopandas library in python. Additionally, in this step, a geoid master dataset was used to obtain exact polygon locations of each geoid in the integrated dataset. Also, school rating data was added to our final dataset in this step as well. The python script for this step is named "lonlat_to_geoid_polygonspy.py". 
 The output of this step is a geopandas object which can be stored and later become imported by Tableau as a Spatial object. 
 
-
+### E. Importing of Geopandas object to Tableau and Visualization
+After step D was performed, the output geopandas dataset was imported in Tableau as a Spatial object and the final dashboard was created. The Tableau file for this step is called
 
 
 
