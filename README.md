@@ -10,6 +10,7 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 
 ### Install Jupyter Notebook:
 `pip install notebook`
+`pip install geopandas`
 
 ### Install required packages for Jupyter Notebook:
 `pip install requests`
@@ -20,9 +21,6 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install pandas`
 `pip install python-csv`
 `pip install pyspark`
-
-### Install Tableau:
-`refer this link (https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_download_and_install.htm) to install Tableau Desktop`
 
 ## EXECUTION - How to run a demo on our code
 ### A. Download all datasets:
@@ -52,4 +50,16 @@ Each dataset was cleaned in OpenRefine to remove the missing values issue and cr
 Each dataset has different granularity in terms of GEOID. For example, the demographics datasets are till Block Group level while some other datasets are till Tract or County levels. We have decided to use the granularity till the Block Group level for our project because it is the smallest geographical unit for which the census bureau publishes sample data. So the individual datasets are integrated by running following Jupyter Notebook:
 `Process_database_notebook_ver2.ipynb`
 
-### D. Open .twb file
+
+### D. Conversion of merged dataset into geopandas object
+After each single dataset was merged and integrated into one database, they were converted to geopandas dataframe using geopandas library in python. Additionally, in this step, a geoid master dataset was used to obtain exact polygon locations of each geoid in the integrated dataset. Also, school rating data was added to our final dataset in this step as well. The python script for this step is named "lonlat_to_geoid_polygonspy.py". 
+The output of this step is a geopandas object which can be stored and later become imported by Tableau as a Spatial object. 
+
+
+
+
+
+
+
+
+
