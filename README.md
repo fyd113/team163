@@ -22,11 +22,16 @@ CODE folder includes one .twb file showing our final product and a few .ipynb fi
 `pip install python-csv`
 `pip install pyspark`
 
+### Install Chrome Instant Data Scraper:
+`refer this link https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah?hl=en-US`
+
 ## EXECUTION - How to run a demo on our code
 ### A. Download all datasets:
 #### School rating data: 
-Run School Data Jupyter Notebooks to scrape and clean data:
-`Open scrape_census_school_districts.ipynb  and click Run All Cells`
+1. Run scrape_census_school_districts.ipynb to scrape and clean data about school districts within each county from https://www.census.gov/geographies/reference-maps/2020/geo/2020pl-maps/2020-schdist-map.html <br />
+`Open scrape_census_school_districts.ipynb and click Run All Cells`
+2. Use Chrome Instant Data Scraper to extract school district rating data for each state from https://www.niche.com/k12/search/best-school-districts/  
+3. Run ombine_niche_and_censu.ipynb to clean school rating data and combine it with school districts data <br />
 `Open combine_niche_and_census.ipynb and click Run All Cells`
 
 #### Demographics data: 
