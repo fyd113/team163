@@ -46,7 +46,8 @@ Downloaded from https://www.openicpsr.org/openicpsr/project/123001/version/V1/vi
 #### Parks availability data: 
 Downloaded from https://www.openicpsr.org/openicpsr/project/117921/version/V1/view
 
-#### Crime data: Downloaded from the FBI website.
+#### Crime data: 
+Downloaded from following website: https://crime-data-explorer.app.cloud.gov/pages/explorer/crime/crime-trend
 
 #### Geojson file with polygon information for each geoid:
 This file can be downloaded from the following website after free account creation: https://docs.safegraph.com/docs/geometry-data
