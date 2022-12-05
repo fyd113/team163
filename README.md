@@ -48,6 +48,8 @@ Downloaded from https://www.openicpsr.org/openicpsr/project/117921/version/V1/vi
 
 #### Crime data: Downloaded from the FBI website.
 
+#### Geojson file with polygon information for each geoid can be downloaded from following website after account creation: https://docs.safegraph.com/docs/geometry-data
+
 ### B. Clean the datasets:
 Each dataset was cleaned in OpenRefine to remove the missing values issue and create a common key to join them later as given below.
 
