@@ -56,7 +56,7 @@ After each single dataset was merged and integrated into one database, they were
 The output of this step is a geopandas object which can be stored and later become imported by Tableau as a Spatial object. 
 
 ### E. Importing of Geopandas object to Tableau and Visualization
-After step D was performed, the output geopandas dataset was imported in Tableau as a Spatial object and the final dashboard was created. The Tableau file for this step is called
+After step D was performed, the output geopandas dataset was imported in Tableau as a Spatial object and the final dashboard was created. The Tableau file for this step is called "House Hunting Dashboard_Final.twbx" and contains the visualization and dashboard for this tool. After the dashboard was built, it was published to Teablau Public which is the cloud environmen for deploying Tableau dashboards to the web. From there, an embedded link was obtained and used in creation of https://neighborhoodsearch.net webpage where our application can be used online!
 
 
 
